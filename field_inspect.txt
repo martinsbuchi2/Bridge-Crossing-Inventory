@@ -1,0 +1,58 @@
+=== CROSSING FIELDS ===
+fid
+MED_DESCRI
+RTT_DESCRI
+F_CODE_DES
+ISO
+ISOCOUNTRY
+water_fid
+water_name
+water_name_en
+water_waterway
+water_covered
+water_width
+water_depth
+water_layer
+water_blockage
+water_tunnel
+water_natural
+water_water
+water_source
+water_osm_id
+water_osm_type
+road_tier
+road_tier_label
+waterway_type
+crossing_id
+risk_tier
+
+=== CROSSING SAMPLE (5 rows) ===
+{'fid': '1', 'MED_DESCRI': 'Without Median', 'RTT_DESCRI': 'Secondary Route', 'F_CODE_DES': 'Road', 'ISO': 'SLE', 'ISOCOUNTRY': 'SIERRA LEONE', 'water_fid': '5487', 'water_name': 'Kundelele', 'water_name_en': 'NULL', 'water_waterway': 'stream', 'water_covered': 'NULL', 'water_width': 'NULL', 'water_depth': 'NULL', 'water_layer': 'NULL', 'water_blockage': 'NULL', 'water_tunnel': 'NULL', 'water_natural': 'NULL', 'water_water': 'NULL', 'water_source': 'US Topo Maps', 'water_osm_id': '301690655', 'water_osm_type': 'ways_line', 'road_tier': '2', 'road_tier_label': 'Tier 2 - Secondary Route', 'waterway_type': 'Minor - Stream', 'crossing_id': 'BCI-001', 'risk_tier': 'Moderate'}
+{'fid': '2', 'MED_DESCRI': 'Without Median', 'RTT_DESCRI': 'Secondary Route', 'F_CODE_DES': 'Road', 'ISO': 'SLE', 'ISOCOUNTRY': 'SIERRA LEONE', 'water_fid': '5490', 'water_name': 'Kundorai', 'water_name_en': 'NULL', 'water_waterway': 'stream', 'water_covered': 'NULL', 'water_width': 'NULL', 'water_depth': 'NULL', 'water_layer': 'NULL', 'water_blockage': 'NULL', 'water_tunnel': 'NULL', 'water_natural': 'NULL', 'water_water': 'NULL', 'water_source': 'US Topo Maps', 'water_osm_id': '301690657', 'water_osm_type': 'ways_line', 'road_tier': '2', 'road_tier_label': 'Tier 2 - Secondary Route', 'waterway_type': 'Minor - Stream', 'crossing_id': 'BCI-002', 'risk_tier': 'Moderate'}
+{'fid': '3', 'MED_DESCRI': 'Without Median', 'RTT_DESCRI': 'Secondary Route', 'F_CODE_DES': 'Road', 'ISO': 'SLE', 'ISOCOUNTRY': 'SIERRA LEONE', 'water_fid': '2905', 'water_name': 'Jong', 'water_name_en': 'NULL', 'water_waterway': 'river', 'water_covered': 'NULL', 'water_width': 'NULL', 'water_depth': 'NULL', 'water_layer': 'NULL', 'water_blockage': 'NULL', 'water_tunnel': 'NULL', 'water_natural': 'NULL', 'water_water': 'NULL', 'water_source': 'Bing', 'water_osm_id': '174546048', 'water_osm_type': 'ways_line', 'road_tier': '2', 'road_tier_label': 'Tier 2 - Secondary Route', 'waterway_type': 'Major - River', 'crossing_id': 'BCI-003', 'risk_tier': 'High'}
+{'fid': '4', 'MED_DESCRI': 'Without Median', 'RTT_DESCRI': 'Secondary Route', 'F_CODE_DES': 'Road', 'ISO': 'SLE', 'ISOCOUNTRY': 'SIERRA LEONE', 'water_fid': '3917', 'water_name': 'Kunde', 'water_name_en': 'NULL', 'water_waterway': 'stream', 'water_covered': 'NULL', 'water_width': 'NULL', 'water_depth': 'NULL', 'water_layer': 'NULL', 'water_blockage': 'NULL', 'water_tunnel': 'NULL', 'water_natural': 'NULL', 'water_water': 'NULL', 'water_source': 'US Topo Maps', 'water_osm_id': '301690656', 'water_osm_type': 'ways_line', 'road_tier': '2', 'road_tier_label': 'Tier 2 - Secondary Route', 'waterway_type': 'Minor - Stream', 'crossing_id': 'BCI-004', 'risk_tier': 'Moderate'}
+{'fid': '5', 'MED_DESCRI': 'Without Median', 'RTT_DESCRI': 'Secondary Route', 'F_CODE_DES': 'Road', 'ISO': 'SLE', 'ISOCOUNTRY': 'SIERRA LEONE', 'water_fid': '5489', 'water_name': 'Tabe', 'water_name_en': 'NULL', 'water_waterway': 'stream', 'water_covered': 'NULL', 'water_width': 'NULL', 'water_depth': 'NULL', 'water_layer': 'NULL', 'water_blockage': 'NULL', 'water_tunnel': 'NULL', 'water_natural': 'NULL', 'water_water': 'NULL', 'water_source': 'NULL', 'water_osm_id': '54967034', 'water_osm_type': 'ways_line', 'road_tier': '2', 'road_tier_label': 'Tier 2 - Secondary Route', 'waterway_type': 'Minor - Stream', 'crossing_id': 'BCI-005', 'risk_tier': 'Moderate'}
+
+=== WATER_LINES FIELDS ===
+fid
+name
+name_en
+waterway
+covered
+width
+depth
+layer
+blockage
+tunnel
+natural
+water
+source
+osm_id
+osm_type
+
+=== WATER_LINES SAMPLE (5 rows) ===
+{'fid': '162', 'name': 'NULL', 'name_en': 'NULL', 'waterway': 'drain', 'covered': 'NULL', 'width': 'NULL', 'depth': 'NULL', 'layer': 'NULL', 'blockage': 'NULL', 'tunnel': 'NULL', 'natural': 'NULL', 'water': 'NULL', 'source': 'NULL', 'osm_id': '305058972', 'osm_type': 'ways_line'}
+{'fid': '163', 'name': 'NULL', 'name_en': 'NULL', 'waterway': 'drain', 'covered': 'NULL', 'width': 'NULL', 'depth': 'NULL', 'layer': 'NULL', 'blockage': 'NULL', 'tunnel': 'NULL', 'natural': 'NULL', 'water': 'NULL', 'source': 'NULL', 'osm_id': '305058973', 'osm_type': 'ways_line'}
+{'fid': '164', 'name': 'NULL', 'name_en': 'NULL', 'waterway': 'stream', 'covered': 'NULL', 'width': 'NULL', 'depth': 'NULL', 'layer': 'NULL', 'blockage': 'NULL', 'tunnel': 'NULL', 'natural': 'NULL', 'water': 'NULL', 'source': 'NULL', 'osm_id': '305058977', 'osm_type': 'ways_line'}
+{'fid': '194', 'name': 'NULL', 'name_en': 'NULL', 'waterway': 'river', 'covered': 'NULL', 'width': 'NULL', 'depth': 'NULL', 'layer': 'NULL', 'blockage': 'NULL', 'tunnel': 'NULL', 'natural': 'NULL', 'water': 'NULL', 'source': 'NULL', 'osm_id': '297714191', 'osm_type': 'ways_line'}
+{'fid': '196', 'name': 'NULL', 'name_en': 'NULL', 'waterway': 'stream', 'covered': 'NULL', 'width': 'NULL', 'depth': 'NULL', 'layer': 'NULL', 'blockage': 'NULL', 'tunnel': 'NULL', 'natural': 'NULL', 'water': 'NULL', 'source': 'NULL', 'osm_id': '297180493', 'osm_type': 'ways_line'}
